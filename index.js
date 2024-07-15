@@ -9,7 +9,7 @@ app.listen(port, () => {
 
 
 
-// Question: 1
+
 
 app.get('/whisper' , (req, res) => {
   let name = req.query.name;
@@ -18,7 +18,7 @@ app.get('/whisper' , (req, res) => {
 
 
 
-// Question: 2
+
 
 app.get('/full-Product-name' , (req, res) => {
   let companyName = req.query.companyName;
@@ -29,7 +29,7 @@ app.get('/full-Product-name' , (req, res) => {
 
 
 
-// Question: 3
+
 
 app.get('/date' , (req, res) => {
   let month = req.query.month;
@@ -40,7 +40,7 @@ app.get('/date' , (req, res) => {
 
 
 
-// Question: 4
+
 
 app.get('/greet' , (req, res) => {
   let city = req.query.city;
@@ -50,7 +50,7 @@ app.get('/greet' , (req, res) => {
 
 
 
-// Question: 5
+
 
 app.get('/capital' , (req, res) => {
   let capital = req.query.capital;
@@ -60,7 +60,7 @@ app.get('/capital' , (req, res) => {
 })
 
 
-// Question; 6 
+
 
 app.get('/email' , (req, res) => {
   let firstName = req.query.firstName;
